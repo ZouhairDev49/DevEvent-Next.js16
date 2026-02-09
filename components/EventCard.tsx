@@ -8,8 +8,12 @@ interface Props {
   location: string;
   date: string;
   time: string;
+  reviews: {
+    average: number;
+    total: number;
+  };
 }
-const EventCard = ({ title, image, slug, location, date, time }: Props) => {
+const EventCard = ({ title, image, slug, location, date, time, reviews }: Props) => {
   return (
     <Link href={`/events/${slug}`} id="event-card">
       <Image
@@ -47,6 +51,10 @@ const EventCard = ({ title, image, slug, location, date, time }: Props) => {
             height={14}
           />
           <p className="date">{time}</p>
+        </div>
+        <div className="reviews">
+          <span className="total">{reviews.total} reviews</span>
+          <p className="average">{reviews.average}⭐</p>
         </div>
       </div>
     </Link>
