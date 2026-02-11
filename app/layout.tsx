@@ -31,7 +31,7 @@ export default function RootLayout({
       >
       <Navbar/>
         <div className="absolute inset-0 top-0 -z-1 min-h-screen">
-          <LightRays
+          {/* <LightRays
             raysOrigin="top-center-offset"
             raysColor="#5dfeca"
             raysSpeed={0.5}
@@ -41,7 +41,7 @@ export default function RootLayout({
             mouseInfluence={0.02}
             noiseAmount={0.0}
             distortion={0.01}
-          />
+          /> */}
         </div>
         <main>{children}</main>
       </body>
