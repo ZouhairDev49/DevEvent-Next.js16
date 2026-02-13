@@ -6,14 +6,6 @@
       location:'New York',
       date:'2024-09-15',
       time:'18:00',
-      reviews:{
-        average:4.5,
-        total:120,
-        comments: [
-          { id: 'rev-1', user: 'Alice', text: 'Amazing workshop!' },
-          { id: 'rev-2', user: 'Bob', text: 'Great networking opportunities.' }
-        ]
-      }
     },
     {
       image:'/images/event2.png',
@@ -22,14 +14,6 @@
       location:'Los Angeles',
       date:'2024-09-16',
       time:'19:00',
-      reviews:{
-        average:4.2,
-        total:95,
-        comments: [
-          { id: 'rev-1', user: 'Charlie', text: 'Loved the sessions!' },
-          { id: 'rev-2', user: 'Dana', text: 'Great speakers and topics.' }
-        ]
-      }
     },
     {
       image:'/images/event3.png',
@@ -38,14 +22,7 @@
       location:'Chicago',
       date:'2024-09-17',
       time:'20:00',
-      reviews:{
-        average:4.7,
-        total:152,
-        comments: [
-        { id: 'rev-1', user: 'Alice', text: 'Amazing workshop!' },
-        { id: 'rev-2', user: 'Bob', text: 'Great networking opportunities.' }
-      ]
-      }
+
     },
     {
       image:'/images/event4.png',
@@ -54,14 +31,7 @@
       location:'San Francisco',
       date:'2024-09-18',
       time:'21:00',
-      reviews:{
-        average:4.3,
-        total:80,
-        comments: [
-          { id: 'rev-1', user: 'Charlie', text: 'Loved the sessions!' },
-          { id: 'rev-2', user: 'Dana', text: 'Great speakers and topics.' }
-        ]
-      }
+
     },
     {
       image:'/images/event5.png',
@@ -70,14 +40,7 @@
       location:'San Francisco',
       date:'2024-09-18',
       time:'21:00',
-      reviews:{
-        average:4.1,
-        total:70,
-        comments: [
-          { id: 'rev-1', user: 'Charlie', text: 'Loved the sessions!' },
-          { id: 'rev-2', user: 'Dana', text: 'Great speakers and topics.' }
-        ]
-      }
+
     },
     {
       image:'/images/event6.png',
@@ -86,13 +49,6 @@
       location:'San Francisco',
       date:'2024-09-18',
       time:'21:00',
-      reviews:{
-        average:4.6,
-        total:110,
-        comments: [
-          { id: 'rev-1', user: 'Charlie', text: 'Loved the sessions!' },
-          { id: 'rev-2', user: 'Dana', text: 'Great speakers and topics.' }
-        ]
-      }
+
     }
   ]

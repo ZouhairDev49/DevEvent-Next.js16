@@ -7,7 +7,7 @@ const Navbar = () => {
   const navLinks = [
     { name: "home", href: "/" },
     { name: "Events", href: "/events" },
-    { name: "Create Event", href: "/createEvent" },
+    { name: "Create Event", href: "/dashboard" },
     { name: "Register", href: "/register" },
     { name: "Login", href: "/login" },
   ];
