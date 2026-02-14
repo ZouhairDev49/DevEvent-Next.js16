@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Image from "next/image";
-import { events } from "@/lib/data";
 import Link from "next/link";
+import prisma from "@/lib/db";
 
 export const metadata: Metadata = {
   title: {
@@ -28,7 +28,12 @@ const formatTime = (timeString: string) => {
   return `${displayHour}:${minutes} ${ampm}`;
 };
 
-export default function EventsPage() {
+export default async function EventsPage() {
+
+  const events = await prisma.event.findMany({
+    // orderBy: {id: "desc"}
+  })
+
   return (
     <div className="min-h-screen  p-6">
       <div className="max-w-7xl mx-auto">
