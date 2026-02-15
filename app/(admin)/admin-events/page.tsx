@@ -45,7 +45,7 @@ export default async function EventsPage() {
           </div>
           <div>
             <Link 
-              href="admin-events/add"
+              href="admin-events/create"
               className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-150 font-medium shadow-sm"
             >
               <svg 

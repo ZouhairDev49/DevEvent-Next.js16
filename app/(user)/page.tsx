@@ -4,7 +4,7 @@ import EventCard from "@/components/EventCard";
 import ExploreBtn from "@/components/ExploreBtn";
 import { events } from "@/lib/data";
 
-export default function Home() {
+export default  function Home() {
 
   return (
     <section>

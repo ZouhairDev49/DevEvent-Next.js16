@@ -44,13 +44,7 @@ export default async function page({
                   <span className="bg-indigo-100 text-indigo-700 text-xs font-bold px-3 py-1 rounded-full uppercase">
                     Featured Event
                   </span>
-                  <span className="text-gray-400 text-sm">|</span>
-                  <div className="flex items-center text-yellow-500 font-bold">
-                    ⭐ {event.reviews.average}{" "}
-                    <span className="text-gray-400 font-normal ml-1">
-                      ({event.reviews.total})
-                    </span>
-                  </div>
+
                 </div>
 
                 <h1 className="text-4xl font-extrabold text-gray-900 mb-6 tracking-tight">

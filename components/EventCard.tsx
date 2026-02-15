@@ -8,10 +8,6 @@ interface Props {
   location: string;
   date: string;
   time: string;
-  reviews: {
-    average: number;
-    total: number;
-  };
 }
 const EventCard = ({ title, image, slug, location, date, time}: Props) => {
   return (
